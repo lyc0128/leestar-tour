@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연락처</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>연락처</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">홈</a></li>
+                <li><a href="product.html">여행 상품</a></li>
+                <li><a href="introduce.html">회사 소개</a></li>
+                <li><a href="contact.html">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact-info">
+        <h2>연락처 정보</h2>
+        <p>전화: 010-7340-5161</p>
+        <p>이메일: lyckhr@gmail.com</p>
+        <p>이스타tv 링크 : https://www.youtube.com/@leestartv</p>
+        <img src="전화.jpg">
+        <h2>연락처 양식</h2>
+        <form id="contact-form">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">이메일:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">여행을 하고 싶은 계기(이유):</label>
+            <textarea id="message" name="message" rows="1" required></textarea>
+            <button type="submit">보내기</button>
+        </form>
+        <p id="form-message"></p>
+</body>
+</html>

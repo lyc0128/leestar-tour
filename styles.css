@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ec2f2f;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: rgb(204, 198, 198);
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: rgb(204, 198, 198);
+    text-align: center;
+    padding: 10px;
+}
+
+.main-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.tours-info {
+    padding: 50px;
+    text-align: center;
+}
+
+.company-info {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-info {
+    padding: 50px;
+    text-align: center;
+}
+
